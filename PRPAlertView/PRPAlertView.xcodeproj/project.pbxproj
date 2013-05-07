@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DBEC4C712EDEB3000BDA55E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBEC4C612EDEB3000BDA55E /* UIKit.framework */; };
+		6DBEC4C912EDEB3000BDA55E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBEC4C812EDEB3000BDA55E /* Foundation.framework */; };
+		6DBEC4CB12EDEB3000BDA55E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBEC4CA12EDEB3000BDA55E /* CoreGraphics.framework */; };
+		6DBEC4D112EDEB3000BDA55E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DBEC4CF12EDEB3000BDA55E /* InfoPlist.strings */; };
+		6DBEC4D412EDEB3000BDA55E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC4D312EDEB3000BDA55E /* main.m */; };
+		6DBEC4D712EDEB3000BDA55E /* PRPAlertViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC4D612EDEB3000BDA55E /* PRPAlertViewAppDelegate.m */; };
+		6DBEC4DA12EDEB3000BDA55E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DBEC4D812EDEB3000BDA55E /* MainWindow.xib */; };
+		6DBEC4DD12EDEB3000BDA55E /* AlertTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC4DC12EDEB3000BDA55E /* AlertTestViewController.m */; };
+		6DBEC4E012EDEB3000BDA55E /* AlertTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DBEC4DE12EDEB3000BDA55E /* AlertTestViewController.xib */; };
+		6DBEC4EE12EDEC1A00BDA55E /* PRPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC4ED12EDEC1A00BDA55E /* PRPAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DBEC4C212EDEB3000BDA55E /* PRPAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRPAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBEC4C612EDEB3000BDA55E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6DBEC4C812EDEB3000BDA55E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6DBEC4CA12EDEB3000BDA55E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6DBEC4CE12EDEB3000BDA55E /* PRPAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRPAlertView-Info.plist"; sourceTree = "<group>"; };
+		6DBEC4D012EDEB3000BDA55E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DBEC4D212EDEB3000BDA55E /* PRPAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PRPAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		6DBEC4D312EDEB3000BDA55E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DBEC4D512EDEB3000BDA55E /* PRPAlertViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRPAlertViewAppDelegate.h; sourceTree = "<group>"; };
+		6DBEC4D612EDEB3000BDA55E /* PRPAlertViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRPAlertViewAppDelegate.m; sourceTree = "<group>"; };
+		6DBEC4D912EDEB3000BDA55E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6DBEC4DB12EDEB3000BDA55E /* AlertTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertTestViewController.h; sourceTree = "<group>"; };
+		6DBEC4DC12EDEB3000BDA55E /* AlertTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertTestViewController.m; sourceTree = "<group>"; };
+		6DBEC4DF12EDEB3000BDA55E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AlertTestViewController.xib; sourceTree = "<group>"; };
+		6DBEC4EC12EDEC1A00BDA55E /* PRPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPAlertView.h; sourceTree = "<group>"; };
+		6DBEC4ED12EDEC1A00BDA55E /* PRPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPAlertView.m; sourceTree = "<group>"; };
+		6DBEC52312EE22BA00BDA55E /* ScrapCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrapCode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DBEC4BF12EDEB3000BDA55E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBEC4C712EDEB3000BDA55E /* UIKit.framework in Frameworks */,
+				6DBEC4C912EDEB3000BDA55E /* Foundation.framework in Frameworks */,
+				6DBEC4CB12EDEB3000BDA55E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DBEC4B712EDEB3000BDA55E = {
+			isa = PBXGroup;
+			children = (
+				6DBEC52312EE22BA00BDA55E /* ScrapCode.m */,
+				6DBEC4CC12EDEB3000BDA55E /* PRPAlertView */,
+				6DBEC4C512EDEB3000BDA55E /* Frameworks */,
+				6DBEC4C312EDEB3000BDA55E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DBEC4C312EDEB3000BDA55E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBEC4C212EDEB3000BDA55E /* PRPAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DBEC4C512EDEB3000BDA55E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DBEC4C612EDEB3000BDA55E /* UIKit.framework */,
+				6DBEC4C812EDEB3000BDA55E /* Foundation.framework */,
+				6DBEC4CA12EDEB3000BDA55E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DBEC4CC12EDEB3000BDA55E /* PRPAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				6DBEC4EB12EDEC0400BDA55E /* Alert View */,
+				6DBEC4D512EDEB3000BDA55E /* PRPAlertViewAppDelegate.h */,
+				6DBEC4D612EDEB3000BDA55E /* PRPAlertViewAppDelegate.m */,
+				6DBEC4D812EDEB3000BDA55E /* MainWindow.xib */,
+				6DBEC4DB12EDEB3000BDA55E /* AlertTestViewController.h */,
+				6DBEC4DC12EDEB3000BDA55E /* AlertTestViewController.m */,
+				6DBEC4DE12EDEB3000BDA55E /* AlertTestViewController.xib */,
+				6DBEC4CD12EDEB3000BDA55E /* Supporting Files */,
+			);
+			path = PRPAlertView;
+			sourceTree = "<group>";
+		};
+		6DBEC4CD12EDEB3000BDA55E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DBEC4CE12EDEB3000BDA55E /* PRPAlertView-Info.plist */,
+				6DBEC4CF12EDEB3000BDA55E /* InfoPlist.strings */,
+				6DBEC4D212EDEB3000BDA55E /* PRPAlertView-Prefix.pch */,
+				6DBEC4D312EDEB3000BDA55E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DBEC4EB12EDEC0400BDA55E /* Alert View */ = {
+			isa = PBXGroup;
+			children = (
+				6DBEC4EC12EDEC1A00BDA55E /* PRPAlertView.h */,
+				6DBEC4ED12EDEC1A00BDA55E /* PRPAlertView.m */,
+			);
+			name = "Alert View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DBEC4C112EDEB3000BDA55E /* PRPAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBEC4E312EDEB3000BDA55E /* Build configuration list for PBXNativeTarget "PRPAlertView" */;
+			buildPhases = (
+				6DBEC4BE12EDEB3000BDA55E /* Sources */,
+				6DBEC4BF12EDEB3000BDA55E /* Frameworks */,
+				6DBEC4C012EDEB3000BDA55E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PRPAlertView;
+			productName = PRPAlertView;
+			productReference = 6DBEC4C212EDEB3000BDA55E /* PRPAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DBEC4B912EDEB3000BDA55E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Bookhouse Software LLC";
+			};
+			buildConfigurationList = 6DBEC4BC12EDEB3000BDA55E /* Build configuration list for PBXProject "PRPAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DBEC4B712EDEB3000BDA55E;
+			productRefGroup = 6DBEC4C312EDEB3000BDA55E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DBEC4C112EDEB3000BDA55E /* PRPAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DBEC4C012EDEB3000BDA55E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBEC4D112EDEB3000BDA55E /* InfoPlist.strings in Resources */,
+				6DBEC4DA12EDEB3000BDA55E /* MainWindow.xib in Resources */,
+				6DBEC4E012EDEB3000BDA55E /* AlertTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DBEC4BE12EDEB3000BDA55E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBEC4D412EDEB3000BDA55E /* main.m in Sources */,
+				6DBEC4D712EDEB3000BDA55E /* PRPAlertViewAppDelegate.m in Sources */,
+				6DBEC4DD12EDEB3000BDA55E /* AlertTestViewController.m in Sources */,
+				6DBEC4EE12EDEC1A00BDA55E /* PRPAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DBEC4CF12EDEB3000BDA55E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBEC4D012EDEB3000BDA55E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6DBEC4D812EDEB3000BDA55E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBEC4D912EDEB3000BDA55E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6DBEC4DE12EDEB3000BDA55E /* AlertTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBEC4DF12EDEB3000BDA55E /* en */,
+			);
+			name = AlertTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DBEC4E112EDEB3000BDA55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6DBEC4E212EDEB3000BDA55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		6DBEC4E412EDEB3000BDA55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRPAlertView/PRPAlertView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "PRPAlertView/PRPAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6DBEC4E512EDEB3000BDA55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRPAlertView/PRPAlertView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "PRPAlertView/PRPAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DBEC4BC12EDEB3000BDA55E /* Build configuration list for PBXProject "PRPAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBEC4E112EDEB3000BDA55E /* Debug */,
+				6DBEC4E212EDEB3000BDA55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBEC4E312EDEB3000BDA55E /* Build configuration list for PBXNativeTarget "PRPAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBEC4E412EDEB3000BDA55E /* Debug */,
+				6DBEC4E512EDEB3000BDA55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DBEC4B912EDEB3000BDA55E /* Project object */;
+}

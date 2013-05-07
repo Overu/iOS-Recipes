@@ -1,0 +1,35 @@
+<!--
+ ! Excerpted from "iOS Recipes",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/cdirec for more book information.
+-->
+<fieldset>
+<legend>Post Data</legend>
+  <form action="http://localhost:3000/post" method="POST">
+    <p>
+      <strong>Name:</strong> <input type="text" name="name">
+    </p>
+    <p>
+      <strong>Age:</strong> <input type="text" name="age">
+    </p>
+    <p>
+      <strong>Bio:</strong> <textarea name="bio" rows="5" cols="20"></textarea>
+    </p>
+    <p> 
+      <input type="submit" value="Submit">
+    </p>
+</form>
+</fieldset>
+
+<br/>
+
+<fieldset>
+<legend>Upload A File</legend>
+<form action="http://localhost:3000/upload" method="POST" enctype="multipart/form-data">
+File: <input type="file" name="filedata"><br/>
+<input type="submit" value="Upload">
+</form>
+</fieldset>

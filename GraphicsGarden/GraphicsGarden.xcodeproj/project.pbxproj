@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
+		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
+		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
+		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		B9A1712212543CFB00994E9E /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A1712012543CFB00994E9E /* GradientView.m */; };
+		B9EA40E5124C09F0001D8166 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA40E4124C09F0001D8166 /* MainViewController.m */; };
+		B9EA40E9124C0A34001D8166 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EA40E8124C0A34001D8166 /* QuartzCore.framework */; };
+		B9EA40EC124C0A82001D8166 /* PRPBird.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA40EB124C0A82001D8166 /* PRPBird.m */; };
+		B9EA4139124C0DE6001D8166 /* PRPShapedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA4136124C0DE6001D8166 /* PRPShapedView.m */; };
+		B9EA413A124C0DE6001D8166 /* PRPCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA4138124C0DE6001D8166 /* PRPCloud.m */; };
+		B9EA4168124C0F24001D8166 /* PRPSunshine.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA415C124C0F24001D8166 /* PRPSunshine.m */; };
+		B9EA4169124C0F24001D8166 /* PRPFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA415E124C0F24001D8166 /* PRPFlower.m */; };
+		B9EA416A124C0F24001D8166 /* UIView+PRPCompositedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA4160124C0F24001D8166 /* UIView+PRPCompositedView.m */; };
+		B9EA416B124C0F24001D8166 /* PRPetal.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA4162124C0F24001D8166 /* PRPetal.m */; };
+		B9EA416C124C0F24001D8166 /* PRPSmile.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA4164124C0F24001D8166 /* PRPSmile.m */; };
+		B9EA416D124C0F24001D8166 /* PRPStem.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA4166124C0F24001D8166 /* PRPStem.m */; };
+		B9EA41D7124C4545001D8166 /* BezierCurvedPetalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA41D6124C4545001D8166 /* BezierCurvedPetalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* GraphicsGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicsGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		2860E32D111B888700E27156 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* GraphicsGarden_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsGarden_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* GraphicsGarden-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GraphicsGarden-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B9A1712012543CFB00994E9E /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		B9A1712112543CFB00994E9E /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		B9EA40E3124C09F0001D8166 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B9EA40E4124C09F0001D8166 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B9EA40E8124C0A34001D8166 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B9EA40EA124C0A82001D8166 /* PRPBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPBird.h; sourceTree = "<group>"; };
+		B9EA40EB124C0A82001D8166 /* PRPBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPBird.m; sourceTree = "<group>"; };
+		B9EA4135124C0DE6001D8166 /* PRPShapedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPShapedView.h; sourceTree = "<group>"; };
+		B9EA4136124C0DE6001D8166 /* PRPShapedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPShapedView.m; sourceTree = "<group>"; };
+		B9EA4137124C0DE6001D8166 /* PRPCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPCloud.h; sourceTree = "<group>"; };
+		B9EA4138124C0DE6001D8166 /* PRPCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPCloud.m; sourceTree = "<group>"; };
+		B9EA415B124C0F24001D8166 /* PRPSunshine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPSunshine.h; sourceTree = "<group>"; };
+		B9EA415C124C0F24001D8166 /* PRPSunshine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPSunshine.m; sourceTree = "<group>"; };
+		B9EA415D124C0F24001D8166 /* PRPFlower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPFlower.h; sourceTree = "<group>"; };
+		B9EA415E124C0F24001D8166 /* PRPFlower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPFlower.m; sourceTree = "<group>"; };
+		B9EA415F124C0F24001D8166 /* UIView+PRPCompositedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PRPCompositedView.h"; sourceTree = "<group>"; };
+		B9EA4160124C0F24001D8166 /* UIView+PRPCompositedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PRPCompositedView.m"; sourceTree = "<group>"; };
+		B9EA4161124C0F24001D8166 /* PRPetal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPetal.h; sourceTree = "<group>"; };
+		B9EA4162124C0F24001D8166 /* PRPetal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPetal.m; sourceTree = "<group>"; };
+		B9EA4163124C0F24001D8166 /* PRPSmile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPSmile.h; sourceTree = "<group>"; };
+		B9EA4164124C0F24001D8166 /* PRPSmile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPSmile.m; sourceTree = "<group>"; };
+		B9EA4165124C0F24001D8166 /* PRPStem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPStem.h; sourceTree = "<group>"; };
+		B9EA4166124C0F24001D8166 /* PRPStem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPStem.m; sourceTree = "<group>"; };
+		B9EA41D5124C4545001D8166 /* BezierCurvedPetalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurvedPetalViewController.h; sourceTree = "<group>"; };
+		B9EA41D6124C4545001D8166 /* BezierCurvedPetalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurvedPetalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B9EA40E9124C0A34001D8166 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* GraphicsGarden.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E324111B887F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
+				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		2860E32A111B888700E27156 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32B111B888700E27156 /* AppDelegate_iPad.h */,
+				2860E32C111B888700E27156 /* AppDelegate_iPad.m */,
+				2860E32D111B888700E27156 /* MainWindow_iPad.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA40E3124C09F0001D8166 /* MainViewController.h */,
+				B9EA40E4124C09F0001D8166 /* MainViewController.m */,
+				B9EA4135124C0DE6001D8166 /* PRPShapedView.h */,
+				B9EA4136124C0DE6001D8166 /* PRPShapedView.m */,
+				B9EA41D4124C4526001D8166 /* BezierCurvedGradient */,
+				B9EA41AE124C1575001D8166 /* CompositedTransformations */,
+				B9EA4158124C0F16001D8166 /* RotationAnimation */,
+				B9EA4194124C14C2001D8166 /* AnimatedGradiant */,
+				B9EA413B124C0DEB001D8166 /* ShadowPaths */,
+				B9EA40F2124C0AF6001D8166 /* AnimatedViews */,
+				8D1107310486CEB800E47090 /* GraphicsGarden-Info.plist */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32A111B888700E27156 /* iPad */,
+				2860E324111B887F00E27156 /* iPhone */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B9EA40E8124C0A34001D8166 /* QuartzCore.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* GraphicsGarden_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9EA40F2124C0AF6001D8166 /* AnimatedViews */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA40EA124C0A82001D8166 /* PRPBird.h */,
+				B9EA40EB124C0A82001D8166 /* PRPBird.m */,
+			);
+			name = AnimatedViews;
+			sourceTree = "<group>";
+		};
+		B9EA413B124C0DEB001D8166 /* ShadowPaths */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA4137124C0DE6001D8166 /* PRPCloud.h */,
+				B9EA4138124C0DE6001D8166 /* PRPCloud.m */,
+			);
+			name = ShadowPaths;
+			sourceTree = "<group>";
+		};
+		B9EA4158124C0F16001D8166 /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA415B124C0F24001D8166 /* PRPSunshine.h */,
+				B9EA415C124C0F24001D8166 /* PRPSunshine.m */,
+				B9EA4165124C0F24001D8166 /* PRPStem.h */,
+				B9EA4166124C0F24001D8166 /* PRPStem.m */,
+			);
+			name = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		B9EA4194124C14C2001D8166 /* AnimatedGradiant */ = {
+			isa = PBXGroup;
+			children = (
+				B9A1712012543CFB00994E9E /* GradientView.m */,
+				B9A1712112543CFB00994E9E /* GradientView.h */,
+			);
+			name = AnimatedGradiant;
+			sourceTree = "<group>";
+		};
+		B9EA41AE124C1575001D8166 /* CompositedTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA415D124C0F24001D8166 /* PRPFlower.h */,
+				B9EA415E124C0F24001D8166 /* PRPFlower.m */,
+				B9EA4163124C0F24001D8166 /* PRPSmile.h */,
+				B9EA4164124C0F24001D8166 /* PRPSmile.m */,
+				B9EA415F124C0F24001D8166 /* UIView+PRPCompositedView.h */,
+				B9EA4160124C0F24001D8166 /* UIView+PRPCompositedView.m */,
+			);
+			name = CompositedTransformations;
+			sourceTree = "<group>";
+		};
+		B9EA41D4124C4526001D8166 /* BezierCurvedGradient */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA41D5124C4545001D8166 /* BezierCurvedPetalViewController.h */,
+				B9EA41D6124C4545001D8166 /* BezierCurvedPetalViewController.m */,
+				B9EA4161124C0F24001D8166 /* PRPetal.h */,
+				B9EA4162124C0F24001D8166 /* PRPetal.m */,
+			);
+			name = BezierCurvedGradient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* GraphicsGarden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GraphicsGarden" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphicsGarden;
+			productName = GraphicsGarden;
+			productReference = 1D6058910D05DD3D006BFB54 /* GraphicsGarden.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GraphicsGarden" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* GraphicsGarden */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
+				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
+				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
+				B9EA40E5124C09F0001D8166 /* MainViewController.m in Sources */,
+				B9EA40EC124C0A82001D8166 /* PRPBird.m in Sources */,
+				B9EA4139124C0DE6001D8166 /* PRPShapedView.m in Sources */,
+				B9EA413A124C0DE6001D8166 /* PRPCloud.m in Sources */,
+				B9EA4168124C0F24001D8166 /* PRPSunshine.m in Sources */,
+				B9EA4169124C0F24001D8166 /* PRPFlower.m in Sources */,
+				B9EA416A124C0F24001D8166 /* UIView+PRPCompositedView.m in Sources */,
+				B9EA416B124C0F24001D8166 /* PRPetal.m in Sources */,
+				B9EA416C124C0F24001D8166 /* PRPSmile.m in Sources */,
+				B9EA416D124C0F24001D8166 /* PRPStem.m in Sources */,
+				B9EA41D7124C4545001D8166 /* BezierCurvedPetalViewController.m in Sources */,
+				B9A1712212543CFB00994E9E /* GradientView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GraphicsGarden_Prefix.pch;
+				INFOPLIST_FILE = "GraphicsGarden-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = GraphicsGarden;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GraphicsGarden_Prefix.pch;
+				INFOPLIST_FILE = "GraphicsGarden-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = GraphicsGarden;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GraphicsGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GraphicsGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

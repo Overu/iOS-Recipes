@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
+		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		4E2482F5125A446400652B96 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2482F4125A446400652B96 /* Default.png */; };
+		4E57FE961256B3340077FDAA /* PRPSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E57FE951256B3340077FDAA /* PRPSplashScreen.m */; };
+		4E57FEA21256B51D0077FDAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E57FEA11256B51D0077FDAA /* QuartzCore.framework */; };
+		6D5B02EA1337960E00C42974 /* TitleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B02E91337960E00C42974 /* TitleListViewController.m */; };
+		6D5B02ED1337964300C42974 /* PRPBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B02EC1337964300C42974 /* PRPBookInfo.m */; };
+		6D5F7D60133879C6004232AB /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F7D5E133879C6004232AB /* AppDelegate_iPad.m */; };
+		6D5F7D61133879C6004232AB /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D5F7D5F133879C6004232AB /* MainWindow_iPad.xib */; };
+		6D5F7D6513387CE9004232AB /* TitleListViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F7D6413387CE9004232AB /* TitleListViewController_iPad.m */; };
+		6D5F7D7813388073004232AB /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F7D7713388073004232AB /* BookDetailViewController.m */; };
+		6D5F7DF1133890E7004232AB /* PRPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F7DF0133890E7004232AB /* PRPWebViewController.m */; };
+		6D5F7DFE13391102004232AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5F7DFD13391101004232AB /* Default@2x.png */; };
+		6D5F7E001339110A004232AB /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5F7DFF1339110A004232AB /* Default~ipad.png */; };
+		6D5F7E0213391110004232AB /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5F7E0113391110004232AB /* Default-Landscape~ipad.png */; };
+		6D5F7E1413395643004232AB /* splash_background_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5F7E1313395642004232AB /* splash_background_ipad.png */; };
+		6DDF7F98134503F500007A6E /* PRPSplashScreen_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF7F97134503F500007A6E /* PRPSplashScreen_iPad.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Splash Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Splash Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* BasicSplashScreen_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicSplashScreen_Prefix.pch; sourceTree = "<group>"; };
+		4E2482F4125A446400652B96 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4E57FE941256B3340077FDAA /* PRPSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPSplashScreen.h; sourceTree = "<group>"; };
+		4E57FE951256B3340077FDAA /* PRPSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPSplashScreen.m; sourceTree = "<group>"; };
+		4E57FEA11256B51D0077FDAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4E57FEAA1256B64F0077FDAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6D5B02E81337960E00C42974 /* TitleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleListViewController.h; sourceTree = "<group>"; };
+		6D5B02E91337960E00C42974 /* TitleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleListViewController.m; sourceTree = "<group>"; };
+		6D5B02EB1337964300C42974 /* PRPBookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPBookInfo.h; path = Shared/PRPBookInfo.h; sourceTree = "<group>"; };
+		6D5B02EC1337964300C42974 /* PRPBookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRPBookInfo.m; path = Shared/PRPBookInfo.m; sourceTree = "<group>"; };
+		6D5F7D5D133879C6004232AB /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		6D5F7D5E133879C6004232AB /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		6D5F7D5F133879C6004232AB /* MainWindow_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		6D5F7D6313387CE9004232AB /* TitleListViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleListViewController_iPad.h; sourceTree = "<group>"; };
+		6D5F7D6413387CE9004232AB /* TitleListViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleListViewController_iPad.m; sourceTree = "<group>"; };
+		6D5F7D7613388073004232AB /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookDetailViewController.h; path = ../BookDetailViewController.h; sourceTree = "<group>"; };
+		6D5F7D7713388073004232AB /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookDetailViewController.m; path = ../BookDetailViewController.m; sourceTree = "<group>"; };
+		6D5F7DEF133890E7004232AB /* PRPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPWebViewController.h; path = Shared/PRPWebViewController.h; sourceTree = "<group>"; };
+		6D5F7DF0133890E7004232AB /* PRPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRPWebViewController.m; path = Shared/PRPWebViewController.m; sourceTree = "<group>"; };
+		6D5F7DF21338FA6F004232AB /* PRPWebViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPWebViewControllerDelegate.h; path = Shared/PRPWebViewControllerDelegate.h; sourceTree = "<group>"; };
+		6D5F7DFB133905C7004232AB /* PRPSplashScreenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPSplashScreenDelegate.h; sourceTree = "<group>"; };
+		6D5F7DFD13391101004232AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6D5F7DFF1339110A004232AB /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		6D5F7E0113391110004232AB /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		6D5F7E1313395642004232AB /* splash_background_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_background_ipad.png; sourceTree = "<group>"; };
+		6DDF7F96134503F500007A6E /* PRPSplashScreen_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPSplashScreen_iPad.h; sourceTree = "<group>"; };
+		6DDF7F97134503F500007A6E /* PRPSplashScreen_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPSplashScreen_iPad.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BasicSplashScreen-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BasicSplashScreen-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				4E57FEA21256B51D0077FDAA /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Splash Screen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E324111B887F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
+				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
+				6D5B02E6133795EE00C42974 /* View Controllers */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4E57FEAA1256B64F0077FDAA /* Default.png */,
+				8D1107310486CEB800E47090 /* BasicSplashScreen-Info.plist */,
+				6D5B02EB1337964300C42974 /* PRPBookInfo.h */,
+				6D5B02EC1337964300C42974 /* PRPBookInfo.m */,
+				6D5F7DF21338FA6F004232AB /* PRPWebViewControllerDelegate.h */,
+				6D5F7DEF133890E7004232AB /* PRPWebViewController.h */,
+				6D5F7DF0133890E7004232AB /* PRPWebViewController.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6D08F9A31343AD9100609695 /* Splash Screen */,
+				2860E324111B887F00E27156 /* iPhone */,
+				6D5F7D5C133879C6004232AB /* iPad */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				4E2482F4125A446400652B96 /* Default.png */,
+				6D5F7DFD13391101004232AB /* Default@2x.png */,
+				6D5F7DFF1339110A004232AB /* Default~ipad.png */,
+				6D5F7E0113391110004232AB /* Default-Landscape~ipad.png */,
+				6D5F7E1313395642004232AB /* splash_background_ipad.png */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* BasicSplashScreen_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				4E57FEA11256B51D0077FDAA /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D08F9A31343AD9100609695 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6D5F7DFB133905C7004232AB /* PRPSplashScreenDelegate.h */,
+				4E57FE941256B3340077FDAA /* PRPSplashScreen.h */,
+				4E57FE951256B3340077FDAA /* PRPSplashScreen.m */,
+			);
+			name = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		6D08F9A61343ADC400609695 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D5F7D6313387CE9004232AB /* TitleListViewController_iPad.h */,
+				6D5F7D6413387CE9004232AB /* TitleListViewController_iPad.m */,
+				6D5F7D7613388073004232AB /* BookDetailViewController.h */,
+				6D5F7D7713388073004232AB /* BookDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6D5B02E6133795EE00C42974 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D5B02E81337960E00C42974 /* TitleListViewController.h */,
+				6D5B02E91337960E00C42974 /* TitleListViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6D5F7D5C133879C6004232AB /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				6D5F7D5D133879C6004232AB /* AppDelegate_iPad.h */,
+				6D5F7D5E133879C6004232AB /* AppDelegate_iPad.m */,
+				6D5F7D5F133879C6004232AB /* MainWindow_iPad.xib */,
+				6DDF7F96134503F500007A6E /* PRPSplashScreen_iPad.h */,
+				6DDF7F97134503F500007A6E /* PRPSplashScreen_iPad.m */,
+				6D08F9A61343ADC400609695 /* View Controllers */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BasicSplashScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BasicSplashScreen" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicSplashScreen;
+			productName = BasicSplashScreen;
+			productReference = 1D6058910D05DD3D006BFB54 /* Splash Screen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BasicSplashScreen" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BasicSplashScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
+				4E2482F5125A446400652B96 /* Default.png in Resources */,
+				6D5F7D61133879C6004232AB /* MainWindow_iPad.xib in Resources */,
+				6D5F7DFE13391102004232AB /* Default@2x.png in Resources */,
+				6D5F7E001339110A004232AB /* Default~ipad.png in Resources */,
+				6D5F7E0213391110004232AB /* Default-Landscape~ipad.png in Resources */,
+				6D5F7E1413395643004232AB /* splash_background_ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
+				4E57FE961256B3340077FDAA /* PRPSplashScreen.m in Sources */,
+				6D5B02EA1337960E00C42974 /* TitleListViewController.m in Sources */,
+				6D5B02ED1337964300C42974 /* PRPBookInfo.m in Sources */,
+				6D5F7D60133879C6004232AB /* AppDelegate_iPad.m in Sources */,
+				6D5F7D6513387CE9004232AB /* TitleListViewController_iPad.m in Sources */,
+				6D5F7D7813388073004232AB /* BookDetailViewController.m in Sources */,
+				6D5F7DF1133890E7004232AB /* PRPWebViewController.m in Sources */,
+				6DDF7F98134503F500007A6E /* PRPSplashScreen_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicSplashScreen_Prefix.pch;
+				INFOPLIST_FILE = "BasicSplashScreen-Info.plist";
+				PRODUCT_NAME = "Splash Screen";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicSplashScreen_Prefix.pch;
+				INFOPLIST_FILE = "BasicSplashScreen-Info.plist";
+				PRODUCT_NAME = "Splash Screen";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BasicSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BasicSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

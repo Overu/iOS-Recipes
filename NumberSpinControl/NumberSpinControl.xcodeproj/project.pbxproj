@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D561412913451E0C001CD23D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D561412813451E0C001CD23D /* UIKit.framework */; };
+		D561412B13451E0C001CD23D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D561412A13451E0C001CD23D /* Foundation.framework */; };
+		D561412D13451E0C001CD23D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D561412C13451E0C001CD23D /* CoreGraphics.framework */; };
+		D561413313451E0C001CD23D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D561413113451E0C001CD23D /* InfoPlist.strings */; };
+		D561413613451E0C001CD23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D561413513451E0C001CD23D /* main.m */; };
+		D561413913451E0C001CD23D /* NumberSpinControlAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D561413813451E0C001CD23D /* NumberSpinControlAppDelegate.m */; };
+		D561413C13451E0C001CD23D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D561413A13451E0C001CD23D /* MainWindow.xib */; };
+		D561413F13451E0C001CD23D /* NumberSpinControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D561413E13451E0C001CD23D /* NumberSpinControlViewController.m */; };
+		D561414213451E0C001CD23D /* NumberSpinControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D561414013451E0C001CD23D /* NumberSpinControlViewController.xib */; };
+		D561414913451E4C001CD23D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D561414813451E4C001CD23D /* QuartzCore.framework */; };
+		D561415413451EE0001CD23D /* SpinNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = D561415313451EE0001CD23D /* SpinNumbers.m */; };
+		D561415613451EF7001CD23D /* redBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D561415513451EF7001CD23D /* redBackground.png */; };
+		D56141591345224D001CD23D /* leftFade.png in Resources */ = {isa = PBXBuildFile; fileRef = D56141571345224D001CD23D /* leftFade.png */; };
+		D561415A1345224D001CD23D /* rightFade.png in Resources */ = {isa = PBXBuildFile; fileRef = D56141581345224D001CD23D /* rightFade.png */; };
+		D5DC320E134A3DAC0038E5F2 /* UIView+PRPCompositedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DC320D134A3DAC0038E5F2 /* UIView+PRPCompositedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D561412413451E0C001CD23D /* NumberSpinControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberSpinControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D561412813451E0C001CD23D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D561412A13451E0C001CD23D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D561412C13451E0C001CD23D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D561413013451E0C001CD23D /* NumberSpinControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberSpinControl-Info.plist"; sourceTree = "<group>"; };
+		D561413213451E0C001CD23D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D561413413451E0C001CD23D /* NumberSpinControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumberSpinControl-Prefix.pch"; sourceTree = "<group>"; };
+		D561413513451E0C001CD23D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D561413713451E0C001CD23D /* NumberSpinControlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberSpinControlAppDelegate.h; sourceTree = "<group>"; };
+		D561413813451E0C001CD23D /* NumberSpinControlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberSpinControlAppDelegate.m; sourceTree = "<group>"; };
+		D561413B13451E0C001CD23D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D561413D13451E0C001CD23D /* NumberSpinControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberSpinControlViewController.h; sourceTree = "<group>"; };
+		D561413E13451E0C001CD23D /* NumberSpinControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberSpinControlViewController.m; sourceTree = "<group>"; };
+		D561414113451E0C001CD23D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NumberSpinControlViewController.xib; sourceTree = "<group>"; };
+		D561414813451E4C001CD23D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D561415213451EE0001CD23D /* SpinNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinNumbers.h; sourceTree = "<group>"; };
+		D561415313451EE0001CD23D /* SpinNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SpinNumbers.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D561415513451EF7001CD23D /* redBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redBackground.png; sourceTree = "<group>"; };
+		D56141571345224D001CD23D /* leftFade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftFade.png; sourceTree = "<group>"; };
+		D56141581345224D001CD23D /* rightFade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightFade.png; sourceTree = "<group>"; };
+		D5DC320C134A3DAB0038E5F2 /* UIView+PRPCompositedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PRPCompositedView.h"; sourceTree = "<group>"; };
+		D5DC320D134A3DAC0038E5F2 /* UIView+PRPCompositedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PRPCompositedView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D561412113451E0C001CD23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D561414913451E4C001CD23D /* QuartzCore.framework in Frameworks */,
+				D561412913451E0C001CD23D /* UIKit.framework in Frameworks */,
+				D561412B13451E0C001CD23D /* Foundation.framework in Frameworks */,
+				D561412D13451E0C001CD23D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D561411913451E0C001CD23D = {
+			isa = PBXGroup;
+			children = (
+				D561412E13451E0C001CD23D /* NumberSpinControl */,
+				D561412713451E0C001CD23D /* Frameworks */,
+				D561412513451E0C001CD23D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D561412513451E0C001CD23D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D561412413451E0C001CD23D /* NumberSpinControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D561412713451E0C001CD23D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D561414813451E4C001CD23D /* QuartzCore.framework */,
+				D561412813451E0C001CD23D /* UIKit.framework */,
+				D561412A13451E0C001CD23D /* Foundation.framework */,
+				D561412C13451E0C001CD23D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D561412E13451E0C001CD23D /* NumberSpinControl */ = {
+			isa = PBXGroup;
+			children = (
+				D561415213451EE0001CD23D /* SpinNumbers.h */,
+				D561415313451EE0001CD23D /* SpinNumbers.m */,
+				D561413713451E0C001CD23D /* NumberSpinControlAppDelegate.h */,
+				D561413813451E0C001CD23D /* NumberSpinControlAppDelegate.m */,
+				D561413A13451E0C001CD23D /* MainWindow.xib */,
+				D561413D13451E0C001CD23D /* NumberSpinControlViewController.h */,
+				D561413E13451E0C001CD23D /* NumberSpinControlViewController.m */,
+				D561414013451E0C001CD23D /* NumberSpinControlViewController.xib */,
+				D5DC320C134A3DAB0038E5F2 /* UIView+PRPCompositedView.h */,
+				D5DC320D134A3DAC0038E5F2 /* UIView+PRPCompositedView.m */,
+				D561412F13451E0C001CD23D /* Supporting Files */,
+			);
+			path = NumberSpinControl;
+			sourceTree = "<group>";
+		};
+		D561412F13451E0C001CD23D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D56141571345224D001CD23D /* leftFade.png */,
+				D56141581345224D001CD23D /* rightFade.png */,
+				D561415513451EF7001CD23D /* redBackground.png */,
+				D561413013451E0C001CD23D /* NumberSpinControl-Info.plist */,
+				D561413113451E0C001CD23D /* InfoPlist.strings */,
+				D561413413451E0C001CD23D /* NumberSpinControl-Prefix.pch */,
+				D561413513451E0C001CD23D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D561412313451E0C001CD23D /* NumberSpinControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D561414513451E0C001CD23D /* Build configuration list for PBXNativeTarget "NumberSpinControl" */;
+			buildPhases = (
+				D561412013451E0C001CD23D /* Sources */,
+				D561412113451E0C001CD23D /* Frameworks */,
+				D561412213451E0C001CD23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberSpinControl;
+			productName = NumberSpinControl;
+			productReference = D561412413451E0C001CD23D /* NumberSpinControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D561411B13451E0C001CD23D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Primitive Dog Software";
+			};
+			buildConfigurationList = D561411E13451E0C001CD23D /* Build configuration list for PBXProject "NumberSpinControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D561411913451E0C001CD23D;
+			productRefGroup = D561412513451E0C001CD23D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D561412313451E0C001CD23D /* NumberSpinControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D561412213451E0C001CD23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D561413313451E0C001CD23D /* InfoPlist.strings in Resources */,
+				D561413C13451E0C001CD23D /* MainWindow.xib in Resources */,
+				D561414213451E0C001CD23D /* NumberSpinControlViewController.xib in Resources */,
+				D561415613451EF7001CD23D /* redBackground.png in Resources */,
+				D56141591345224D001CD23D /* leftFade.png in Resources */,
+				D561415A1345224D001CD23D /* rightFade.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D561412013451E0C001CD23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D561413613451E0C001CD23D /* main.m in Sources */,
+				D561413913451E0C001CD23D /* NumberSpinControlAppDelegate.m in Sources */,
+				D561413F13451E0C001CD23D /* NumberSpinControlViewController.m in Sources */,
+				D561415413451EE0001CD23D /* SpinNumbers.m in Sources */,
+				D5DC320E134A3DAC0038E5F2 /* UIView+PRPCompositedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D561413113451E0C001CD23D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D561413213451E0C001CD23D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D561413A13451E0C001CD23D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D561413B13451E0C001CD23D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D561414013451E0C001CD23D /* NumberSpinControlViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D561414113451E0C001CD23D /* en */,
+			);
+			name = NumberSpinControlViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D561414313451E0C001CD23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D561414413451E0C001CD23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D561414613451E0C001CD23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberSpinControl/NumberSpinControl-Prefix.pch";
+				INFOPLIST_FILE = "NumberSpinControl/NumberSpinControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D561414713451E0C001CD23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberSpinControl/NumberSpinControl-Prefix.pch";
+				INFOPLIST_FILE = "NumberSpinControl/NumberSpinControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D561411E13451E0C001CD23D /* Build configuration list for PBXProject "NumberSpinControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D561414313451E0C001CD23D /* Debug */,
+				D561414413451E0C001CD23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D561414513451E0C001CD23D /* Build configuration list for PBXNativeTarget "NumberSpinControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D561414613451E0C001CD23D /* Debug */,
+				D561414713451E0C001CD23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D561411B13451E0C001CD23D /* Project object */;
+}

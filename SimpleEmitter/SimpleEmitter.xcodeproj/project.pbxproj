@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D500F40413086E3B0057FF07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D500F40313086E3B0057FF07 /* UIKit.framework */; };
+		D500F40613086E3B0057FF07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D500F40513086E3B0057FF07 /* Foundation.framework */; };
+		D500F40813086E3B0057FF07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D500F40713086E3B0057FF07 /* CoreGraphics.framework */; };
+		D500F40E13086E3B0057FF07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D500F40C13086E3B0057FF07 /* InfoPlist.strings */; };
+		D500F41113086E3B0057FF07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D500F41013086E3B0057FF07 /* main.m */; };
+		D500F41413086E3B0057FF07 /* SimpleEmitterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D500F41313086E3B0057FF07 /* SimpleEmitterAppDelegate.m */; };
+		D500F41713086E3B0057FF07 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D500F41513086E3B0057FF07 /* MainWindow.xib */; };
+		D500F41A13086E3B0057FF07 /* SimpleEmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D500F41913086E3B0057FF07 /* SimpleEmitterViewController.m */; };
+		D500F42513086F350057FF07 /* PRPSimpleEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D500F42413086F350057FF07 /* PRPSimpleEmitterLayer.m */; };
+		D500F437130882220057FF07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D500F436130882220057FF07 /* QuartzCore.framework */; };
+		D5750E7813089513003981C2 /* brightBlob.png in Resources */ = {isa = PBXBuildFile; fileRef = D5750E7713089513003981C2 /* brightBlob.png */; };
+		D5750E7B1308A5E7003981C2 /* tspark.png in Resources */ = {isa = PBXBuildFile; fileRef = D5750E7A1308A5E7003981C2 /* tspark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D500F3FF13086E3B0057FF07 /* SimpleEmitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleEmitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D500F40313086E3B0057FF07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D500F40513086E3B0057FF07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D500F40713086E3B0057FF07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D500F40B13086E3B0057FF07 /* SimpleEmitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleEmitter-Info.plist"; sourceTree = "<group>"; };
+		D500F40D13086E3B0057FF07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D500F40F13086E3B0057FF07 /* SimpleEmitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleEmitter-Prefix.pch"; sourceTree = "<group>"; };
+		D500F41013086E3B0057FF07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D500F41213086E3B0057FF07 /* SimpleEmitterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleEmitterAppDelegate.h; sourceTree = "<group>"; };
+		D500F41313086E3B0057FF07 /* SimpleEmitterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleEmitterAppDelegate.m; sourceTree = "<group>"; };
+		D500F41613086E3B0057FF07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D500F41813086E3B0057FF07 /* SimpleEmitterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleEmitterViewController.h; sourceTree = "<group>"; };
+		D500F41913086E3B0057FF07 /* SimpleEmitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleEmitterViewController.m; sourceTree = "<group>"; };
+		D500F42313086F350057FF07 /* PRPSimpleEmitterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PRPSimpleEmitterLayer.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D500F42413086F350057FF07 /* PRPSimpleEmitterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PRPSimpleEmitterLayer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D500F436130882220057FF07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D5750E7713089513003981C2 /* brightBlob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightBlob.png; sourceTree = "<group>"; };
+		D5750E7A1308A5E7003981C2 /* tspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tspark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D500F3FC13086E3B0057FF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D500F40413086E3B0057FF07 /* UIKit.framework in Frameworks */,
+				D500F40613086E3B0057FF07 /* Foundation.framework in Frameworks */,
+				D500F40813086E3B0057FF07 /* CoreGraphics.framework in Frameworks */,
+				D500F437130882220057FF07 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D500F3F413086E3B0057FF07 = {
+			isa = PBXGroup;
+			children = (
+				D500F40913086E3B0057FF07 /* SimpleEmitter */,
+				D500F40213086E3B0057FF07 /* Frameworks */,
+				D500F40013086E3B0057FF07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D500F40013086E3B0057FF07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D500F3FF13086E3B0057FF07 /* SimpleEmitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D500F40213086E3B0057FF07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D500F436130882220057FF07 /* QuartzCore.framework */,
+				D500F40313086E3B0057FF07 /* UIKit.framework */,
+				D500F40513086E3B0057FF07 /* Foundation.framework */,
+				D500F40713086E3B0057FF07 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D500F40913086E3B0057FF07 /* SimpleEmitter */ = {
+			isa = PBXGroup;
+			children = (
+				D500F41213086E3B0057FF07 /* SimpleEmitterAppDelegate.h */,
+				D500F41313086E3B0057FF07 /* SimpleEmitterAppDelegate.m */,
+				D500F41813086E3B0057FF07 /* SimpleEmitterViewController.h */,
+				D500F41913086E3B0057FF07 /* SimpleEmitterViewController.m */,
+				D500F42313086F350057FF07 /* PRPSimpleEmitterLayer.h */,
+				D500F42413086F350057FF07 /* PRPSimpleEmitterLayer.m */,
+				D500F40A13086E3B0057FF07 /* Supporting Files */,
+			);
+			path = SimpleEmitter;
+			sourceTree = "<group>";
+		};
+		D500F40A13086E3B0057FF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5750E7A1308A5E7003981C2 /* tspark.png */,
+				D5750E7713089513003981C2 /* brightBlob.png */,
+				D500F41513086E3B0057FF07 /* MainWindow.xib */,
+				D500F40B13086E3B0057FF07 /* SimpleEmitter-Info.plist */,
+				D500F40C13086E3B0057FF07 /* InfoPlist.strings */,
+				D500F40F13086E3B0057FF07 /* SimpleEmitter-Prefix.pch */,
+				D500F41013086E3B0057FF07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D500F3FE13086E3B0057FF07 /* SimpleEmitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D500F42013086E3B0057FF07 /* Build configuration list for PBXNativeTarget "SimpleEmitter" */;
+			buildPhases = (
+				D500F3FB13086E3B0057FF07 /* Sources */,
+				D500F3FC13086E3B0057FF07 /* Frameworks */,
+				D500F3FD13086E3B0057FF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleEmitter;
+			productName = SimpleEmitter;
+			productReference = D500F3FF13086E3B0057FF07 /* SimpleEmitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D500F3F613086E3B0057FF07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Primitive Dog Software";
+			};
+			buildConfigurationList = D500F3F913086E3B0057FF07 /* Build configuration list for PBXProject "SimpleEmitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D500F3F413086E3B0057FF07;
+			productRefGroup = D500F40013086E3B0057FF07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D500F3FE13086E3B0057FF07 /* SimpleEmitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D500F3FD13086E3B0057FF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D500F40E13086E3B0057FF07 /* InfoPlist.strings in Resources */,
+				D500F41713086E3B0057FF07 /* MainWindow.xib in Resources */,
+				D5750E7813089513003981C2 /* brightBlob.png in Resources */,
+				D5750E7B1308A5E7003981C2 /* tspark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D500F3FB13086E3B0057FF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D500F41113086E3B0057FF07 /* main.m in Sources */,
+				D500F41413086E3B0057FF07 /* SimpleEmitterAppDelegate.m in Sources */,
+				D500F41A13086E3B0057FF07 /* SimpleEmitterViewController.m in Sources */,
+				D500F42513086F350057FF07 /* PRPSimpleEmitterLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D500F40C13086E3B0057FF07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D500F40D13086E3B0057FF07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D500F41513086E3B0057FF07 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D500F41613086E3B0057FF07 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D500F41E13086E3B0057FF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D500F41F13086E3B0057FF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D500F42113086E3B0057FF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleEmitter/SimpleEmitter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SimpleEmitter/SimpleEmitter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D500F42213086E3B0057FF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleEmitter/SimpleEmitter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SimpleEmitter/SimpleEmitter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D500F3F913086E3B0057FF07 /* Build configuration list for PBXProject "SimpleEmitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D500F41E13086E3B0057FF07 /* Debug */,
+				D500F41F13086E3B0057FF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D500F42013086E3B0057FF07 /* Build configuration list for PBXNativeTarget "SimpleEmitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D500F42113086E3B0057FF07 /* Debug */,
+				D500F42213086E3B0057FF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D500F3F613086E3B0057FF07 /* Project object */;
+}
